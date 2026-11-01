@@ -1,0 +1,1 @@
+export async function translate(payload, fetcher=fetch){const r=await fetcher('http://localhost:8000/translate',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});if(!r.ok)throw new Error('Translation failed');return r.json()}

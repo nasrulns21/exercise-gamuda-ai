@@ -1,0 +1,1 @@
+import MenuItem from'./MenuItem.jsx';export default function MenuCategory({name,items,onOrder}){return <section aria-labelledby={`${name}-heading`}><h2 id={`${name}-heading`}>{name} ({items.length})</h2>{items.length===0?<p>No items available in this category.</p>:<div className="items">{items.map(item=><MenuItem key={item.name}{...item}onOrder={onOrder}/>)}</div>}</section>}

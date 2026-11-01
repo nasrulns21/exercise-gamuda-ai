@@ -1,0 +1,1 @@
+export default function FixedJsxExample(){return <section className="jsx-rules"><h2>JSX Rules</h2><ul aria-label="Correct JSX examples"><li>Return one parent element.</li><li>Close every element.</li><li>Use <code>className</code> for CSS classes.</li></ul></section>}

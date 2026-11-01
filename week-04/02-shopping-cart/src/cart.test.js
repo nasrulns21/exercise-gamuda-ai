@@ -1,0 +1,2 @@
+import{expect,it}from'vitest';import{cartReducer,cartTotal}from'./cart.js';const item={id:1,name:'Notebook',price:12.5};
+it('adds, increments, decrements, removes and totals cart items immutably',()=>{const empty=[];const one=cartReducer(empty,{type:'add',product:item});expect(one).toEqual([{...item,quantity:1}]);expect(empty).toEqual([]);const two=cartReducer(one,{type:'add',product:item});expect(cartTotal(two)).toBe(25);expect(cartReducer(two,{type:'decrement',id:1})[0].quantity).toBe(1);expect(cartReducer(one,{type:'remove',id:1})).toEqual([])})

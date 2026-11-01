@@ -1,0 +1,1 @@
+import React from'react';import{createRoot}from'react-dom/client';import UserDashboard from'./UserDashboard.jsx';import'./styles.css';createRoot(document.getElementById('root')).render(<UserDashboard/>);

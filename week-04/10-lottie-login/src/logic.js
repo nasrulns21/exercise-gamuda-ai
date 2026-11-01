@@ -1,0 +1,1 @@
+export function loginAnimationState(status,reducedMotion){if(reducedMotion)return`${status}-static`;return{idle:'idle',loading:'spinner',success:'success-animation',failure:'error-animation'}[status]??'idle'}

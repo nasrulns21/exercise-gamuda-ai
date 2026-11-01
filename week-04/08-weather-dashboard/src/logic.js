@@ -1,0 +1,1 @@
+export function weatherViewState({loading=false,error='',data=null}){if(loading)return'loading';if(error)return'error';if(!data)return'empty';return'ready'}export const temperatureTone=value=>value>=30?'hot':value<=18?'cold':'mild'

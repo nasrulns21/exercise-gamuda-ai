@@ -1,0 +1,1 @@
+export function answerQuestion(state,answer,total){if(!answer)return{...state,error:'Choose an answer'};const answers={...state.answers,[state.index]:answer};return{...state,answers,error:'',index:Math.min(state.index+1,total-1),submitted:state.index===total-1}}export const tickQuiz=state=>state.seconds<=1?{...state,seconds:0,submitted:true}:{...state,seconds:state.seconds-1}

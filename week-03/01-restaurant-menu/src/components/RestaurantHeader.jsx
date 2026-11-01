@@ -1,0 +1,1 @@
+export default function RestaurantHeader({name,cuisine='International cuisine',rating=5}){const stars='★'.repeat(rating)+'☆'.repeat(5-rating);return <header><h1>{name}</h1><p>{cuisine}</p><p aria-label={`${rating} out of 5 stars`}>{stars}</p></header>}

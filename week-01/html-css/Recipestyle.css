@@ -1,0 +1,106 @@
+/* Body styling */
+body {
+    background-color: #f5f5f5;
+    font-family: Georgia, serif;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Recipe card styling */
+.recipe-card {
+    background-color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    border: 2px solid #d2691e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe image styling */
+.recipe-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipe-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #d2691e;
+}
+
+/* Recipe title styling */
+.recipe-title {
+    text-align: center;
+    color: #8b4513;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Preparation time styling */
+.prep-time {
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Section titles styling */
+.section-title {
+    color: #8b4513;
+    border-bottom: 1px solid #d2691e;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Ingredients list styling */
+.ingredients-list {
+    color: #333;
+    line-height: 1.8;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+/* Ingredients list item */
+.ingredients-list li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Instructions styling */
+.instructions {
+    color: black;
+    line-height: 1.5;
+    background-color: #fff8dc;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #d2691e;
+    margin-bottom: 20px;
+}
+
+/* Difficulty styling */
+.difficulty {
+    color: #2e8b57;
+    font-weight: bold;
+    text-align: center;
+    font-size: 17px;
+    background-color: #f0fff0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Bonus: Hover effects */
+.recipe-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.recipe-image img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
