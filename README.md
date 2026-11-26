@@ -14,6 +14,7 @@ This private repository documents my Gamuda AI training exercises for personal l
 | [Week 6](week-06/) | PostgreSQL, routers, and full-stack integration | Todo CRUD, router exercises, and React/FastAPI book manager |
 | [Week 7](week-07/) | Generative AI and prompt engineering | Translation, parameter/role experiments, parsing, and summarisation |
 | [Week 8](week-08/) | Multimodal analytics | Image UI and four-mode video analysis prompts |
+| [Week 9](week-09/) | RAG, AI agents, and MCP | PDF chatbot, agent memory, middleware, remote search, and read-only database tools |
 
 ## How to use this repository
 
@@ -34,5 +35,5 @@ Local secrets are intentionally excluded. Where an exercise needs an API key or 
 - The trainer slides were used only as a reference and are not included in this repository.
 - Virtual environments, dependencies, build outputs, caches, and local secret files are excluded.
 - The original exercise folders remain unchanged; numbered folders contain the completed trainer-note exercises.
-- Firebase, live PostgreSQL, HTTP smoke on Python 3.12/3.13, and live Gemini calls remain explicit external checkpoints because they require an authorised account or service.
+- Firebase, MongoDB Atlas, live PostgreSQL, Tavily, LangSmith, and live Gemini calls remain explicit external checkpoints because they require an authorised account or service.
 

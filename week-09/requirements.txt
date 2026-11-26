@@ -1,0 +1,16 @@
+fastapi==0.143.0
+uvicorn==0.38.0
+python-dotenv==1.2.1
+pydantic==2.12.5
+langchain-core
+langchain
+langgraph
+langgraph-checkpoint-postgres
+langchain-google-genai
+langchain-mongodb
+langchain-mcp-adapters
+mcp
+pymongo
+psycopg[binary]
+sqlalchemy
+pypdf

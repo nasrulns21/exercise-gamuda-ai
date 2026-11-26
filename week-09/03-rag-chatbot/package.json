@@ -1,0 +1,1 @@
+{"name":"week-09-rag-chatbot","private":true,"version":"1.0.0","type":"module","scripts":{"test":"vitest run","build":"vite build"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","vitest":"latest","react":"latest","react-dom":"latest"},"devDependencies":{}}

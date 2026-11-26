@@ -17,6 +17,7 @@ The complete trainer-note requirement map is maintained in [`EXERCISE-COVERAGE.m
 | `week-06/postgresql-crud-api` | `PostgreSQL` root Python files | FastAPI authentication demo with PostgreSQL configuration and commented CRUD examples |
 | `week-07` | `Week 7` | Generative AI, translation, and prompt engineering |
 | `week-08` | `Week 8` | Video analytics |
+| `week-09/original-work` | `Week 9` | Original RAG and tool-calling Python exercises, excluding `.env` |
 
 ## Excluded material
 

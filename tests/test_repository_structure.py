@@ -13,6 +13,7 @@ EXPECTED_IDS = [
     *(f"W06-E{i:02d}" for i in range(1, 5)),
     *(f"W07-E{i:02d}" for i in range(1, 9)),
     *(f"W08-E{i:02d}" for i in range(1, 3)),
+    *(f"W09-E{i:02d}" for i in range(1, 11)),
 ]
 
 
